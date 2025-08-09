@@ -4,7 +4,7 @@ Real-time AI-powered home surveillance with face recognition and WhatsApp alerts
 
 ---
 
-![Alt text](https://example.com/image.png)
+![Alt text](https://github.com/FiyinfoluwaDav/AI-based-home-security/blob/main/dashboard.png)
 
 ## Overview
 
