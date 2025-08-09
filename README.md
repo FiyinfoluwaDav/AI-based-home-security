@@ -8,7 +8,7 @@ Real-time AI-powered home surveillance with face recognition and WhatsApp alerts
 
 ## Overview
 
-The **NSMC Home Security System** is a Python-based application built with Streamlit that leverages AI-driven face recognition to monitor environments in real-time. It detects known and unknown individuals, logs detection events, records videos, captures snapshots, and sends alerts via WhatsApp using the CallMeBot API. The user-friendly interface includes a dashboard for live monitoring and analytics, plus a logs page for trend analysis — ideal for home or small-scale security applications.
+The **NSMC Home Security System** is a Python-based application built with Streamlit that leverages AI-driven face recognition to monitor environments in real-time. It detects known and unknown individuals, logs detection events, records videos, captures snapshots, and sends alerts via WhatsApp using the CallMeBot API. The user-friendly interface includes a dashboard for live monitoring and analytics, plus a logs page for trend analysis, ideal for home or small-scale security applications.
 
 ---
 
@@ -61,8 +61,8 @@ The **NSMC Home Security System** is a Python-based application built with Strea
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/nsmc-home-security.git
-    cd nsmc-home-security
+    git clone https://github.com/FiyinfoluwaDav/AI-based-home-security.git
+    cd AI-based-home-security
     ```
 
 2. **Set up a virtual environment (recommended):**
@@ -113,7 +113,7 @@ streamlit run streamlit_app1.py
 
 
 nsmc-home-security/
-├── app.py                 # Main application script
+├── streamlit_app1.py                 # Main application script
 ├── detections.csv         # Detection log file (auto-generated)
 ├── known_faces/           # Known face images
 ├── snapshots/             # Captured snapshots
