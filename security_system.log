@@ -1,0 +1,172 @@
+2025-08-08 15:05:21,271 - INFO - Successfully loaded face: fiyin.jpg
+2025-08-08 15:05:52,153 - INFO - frontend_rtc_configuration.iceServers is not set. Try to set it automatically.
+2025-08-08 15:05:52,156 - INFO - Use STUN server from Google.
+2025-08-08 15:06:00,979 - INFO - rtc_configuration.iceServers is not set. Try to set it automatically.
+2025-08-08 15:06:01,012 - INFO - Track audio received
+2025-08-08 15:06:01,018 - INFO - Add a track <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F66D8040> of kind audio to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263E3E121D0>
+2025-08-08 15:06:01,043 - INFO - Track video received
+2025-08-08 15:06:01,043 - INFO - Set <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F6690BB0> as an input video track with video_processor <class 'streamlit_webrtc.process.AsyncVideoProcessTrack'>
+2025-08-08 15:06:01,044 - INFO - Add a track <streamlit_webrtc.process.AsyncVideoProcessTrack object at 0x00000263F66D58A0> of kind video to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263E3E121D0>
+2025-08-08 15:06:01,055 - INFO - Connection(0) Could not bind to 169.254.252.254 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:01,074 - INFO - Connection(0) Could not bind to 169.254.64.94 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:01,492 - INFO - Setting ICE candidates from offerer: {'s98rt18u29m': {'candidate': 'candidate:4222830109 1 udp 2122260223 10.251.67.108 59220 typ host generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': 'FxtN'}, '8zeclx6t9r5': {'candidate': 'candidate:4222830109 1 udp 2122260223 10.251.67.108 59221 typ host generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': 'FxtN'}, 'z7znguiwb9s': {'candidate': 'candidate:981274967 1 udp 1686052607 102.91.71.28 1390 typ srflx raddr 10.251.67.108 rport 59220 generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': 'FxtN'}, 'q0bfxupk5f': {'candidate': 'candidate:981274967 1 udp 1686052607 102.91.71.28 22283 typ srflx raddr 10.251.67.108 rport 59221 generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': 'FxtN'}, 'l0gdasswgwo': {'candidate': 'candidate:85561993 1 tcp 1518280447 10.251.67.108 9 typ host tcptype active generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': 'FxtN'}, 'c0bcme6oqmi': {'candidate': 'candidate:85561993 1 tcp 1518280447 10.251.67.108 9 typ host tcptype active generation 0 ufrag FxtN network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': 'FxtN'}}
+2025-08-08 15:06:01,499 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:4222830109', ip='10.251.67.108', port=59220, priority=2122260223, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:01,502 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:4222830109', ip='10.251.67.108', port=59221, priority=2122260223, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:01,504 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:981274967', ip='102.91.71.28', port=1390, priority=1686052607, protocol='udp', type='srflx', relatedAddress='10.251.67.108', relatedPort=59220, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:01,507 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:981274967', ip='102.91.71.28', port=22283, priority=1686052607, protocol='udp', type='srflx', relatedAddress='10.251.67.108', relatedPort=59221, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:01,517 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:85561993', ip='10.251.67.108', port=9, priority=1518280447, protocol='tcp', type='host', relatedAddress=None, relatedPort=None, sdpMid='0', sdpMLineIndex=0, tcpType='active')
+2025-08-08 15:06:01,521 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:85561993', ip='10.251.67.108', port=9, priority=1518280447, protocol='tcp', type='host', relatedAddress=None, relatedPort=None, sdpMid='1', sdpMLineIndex=1, tcpType='active')
+2025-08-08 15:06:02,496 - INFO - Connection(0) Check CandidatePair(('10.251.67.108', 52697) -> ('10.251.67.108', 59220)) State.FROZEN -> State.IN_PROGRESS
+2025-08-08 15:06:02,499 - INFO - Connection(0) Check CandidatePair(('10.251.67.108', 52697) -> ('10.251.67.108', 59220)) State.IN_PROGRESS -> State.SUCCEEDED
+2025-08-08 15:06:02,500 - INFO - Connection(0) Check CandidatePair(('10.251.67.108', 52697) -> ('102.91.71.28', 1390)) State.FROZEN -> State.WAITING
+2025-08-08 15:06:02,508 - INFO - Connection(0) Check CandidatePair(('10.251.67.108', 52697) -> ('102.91.71.28', 1390)) State.WAITING -> State.IN_PROGRESS
+2025-08-08 15:06:02,727 - INFO - Connection(0) ICE completed
+2025-08-08 15:06:04,481 - ERROR - Error occurred in the WebRTC thread: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 454, in __getitem__
+    return self._getitem(widget_id, key)
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 499, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 130, in __getattr__
+    return self[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 101, in __getitem__
+    return get_session_state()[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 96, in __getitem__
+    return self._state[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 456, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 111, in _run_worker_thread
+    self._worker_thread()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 196, in _worker_thread
+    new_frames = finished.result()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\models.py", line 115, in recv_queued
+    return [self.recv(frames[-1])]
+  File "C:\Users\NOVA\Desktop\AI-based-home-security\streamlit_app.py", line 97, in recv
+    if face_id not in st.session_state.seen_faces:
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 132, in __getattr__
+    raise AttributeError(_missing_attr_error_message(key))
+AttributeError: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-08 15:06:16,736 - INFO - Track video ended
+2025-08-08 15:06:16,737 - INFO - Track audio ended
+2025-08-08 15:06:34,558 - INFO - rtc_configuration.iceServers is not set. Try to set it automatically.
+2025-08-08 15:06:34,571 - INFO - Track audio received
+2025-08-08 15:06:34,572 - INFO - Add a track <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F69E18D0> of kind audio to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263F6A72440>
+2025-08-08 15:06:34,574 - INFO - Track video received
+2025-08-08 15:06:34,575 - INFO - Set <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F676BF70> as an input video track with video_processor <class 'streamlit_webrtc.process.AsyncVideoProcessTrack'>
+2025-08-08 15:06:34,582 - INFO - Add a track <streamlit_webrtc.process.AsyncVideoProcessTrack object at 0x00000263F6A445B0> of kind video to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263F6A72440>
+2025-08-08 15:06:34,592 - INFO - Connection(2) Could not bind to 169.254.252.254 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:34,592 - INFO - Connection(2) Could not bind to 169.254.64.94 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:35,138 - INFO - Setting ICE candidates from offerer: {'u61az9w4gb': {'candidate': 'candidate:4215974455 1 udp 2113937151 a93baf4f-616e-46da-a827-168ea428e529.local 58204 typ host generation 0 ufrag U/3M network-cost 999', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': 'U/3M'}, 'hrfd0lb8pd8': {'candidate': 'candidate:4215974455 1 udp 2113937151 a93baf4f-616e-46da-a827-168ea428e529.local 58206 typ host generation 0 ufrag U/3M network-cost 999', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': 'U/3M'}, 'gigipkx0vyf': {'candidate': 'candidate:2107833380 1 udp 1677729535 102.91.71.28 22221 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag U/3M network-cost 999', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': 'U/3M'}, 'ez58yl6wgp': {'candidate': 'candidate:2107833380 1 udp 1677729535 102.91.71.28 22389 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag U/3M network-cost 999', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': 'U/3M'}}
+2025-08-08 15:06:35,144 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:4215974455', ip='a93baf4f-616e-46da-a827-168ea428e529.local', port=58204, priority=2113937151, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:35,148 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:4215974455', ip='a93baf4f-616e-46da-a827-168ea428e529.local', port=58206, priority=2113937151, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:35,185 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:2107833380', ip='102.91.71.28', port=22221, priority=1677729535, protocol='udp', type='srflx', relatedAddress='0.0.0.0', relatedPort=0, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:35,261 - INFO - Connection(2) Remote candidate "a93baf4f-616e-46da-a827-168ea428e529.local" resolved to 10.251.67.108
+2025-08-08 15:06:35,269 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:2107833380', ip='102.91.71.28', port=22389, priority=1677729535, protocol='udp', type='srflx', relatedAddress='0.0.0.0', relatedPort=0, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:35,319 - INFO - Connection(2) Check CandidatePair(('10.251.67.108', 55127) -> ('10.251.67.108', 58204)) State.FROZEN -> State.IN_PROGRESS
+2025-08-08 15:06:36,712 - INFO - Connection(2) Check CandidatePair(('10.251.67.108', 55127) -> ('10.251.67.108', 58204)) State.IN_PROGRESS -> State.SUCCEEDED
+2025-08-08 15:06:36,713 - INFO - Connection(2) Check CandidatePair(('10.251.67.108', 55127) -> ('102.91.71.28', 22221)) State.FROZEN -> State.FAILED
+2025-08-08 15:06:36,714 - INFO - Connection(2) ICE completed
+2025-08-08 15:06:38,907 - ERROR - Error occurred in the WebRTC thread: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 454, in __getitem__
+    return self._getitem(widget_id, key)
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 499, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 130, in __getattr__
+    return self[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 101, in __getitem__
+    return get_session_state()[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 96, in __getitem__
+    return self._state[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 456, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 111, in _run_worker_thread
+    self._worker_thread()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 196, in _worker_thread
+    new_frames = finished.result()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\models.py", line 115, in recv_queued
+    return [self.recv(frames[-1])]
+  File "C:\Users\NOVA\Desktop\AI-based-home-security\streamlit_app.py", line 97, in recv
+    if face_id not in st.session_state.seen_faces:
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 132, in __getattr__
+    raise AttributeError(_missing_attr_error_message(key))
+AttributeError: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-08 15:06:47,862 - INFO - Track audio ended
+2025-08-08 15:06:47,887 - INFO - Track video ended
+2025-08-08 15:06:52,002 - INFO - rtc_configuration.iceServers is not set. Try to set it automatically.
+2025-08-08 15:06:52,020 - INFO - Track audio received
+2025-08-08 15:06:52,024 - INFO - Add a track <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F6A72EC0> of kind audio to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263F66D7D30>
+2025-08-08 15:06:52,028 - INFO - Track video received
+2025-08-08 15:06:52,035 - INFO - Set <aiortc.rtcrtpreceiver.RemoteStreamTrack object at 0x00000263F6B79E10> as an input video track with video_processor <class 'streamlit_webrtc.process.AsyncVideoProcessTrack'>
+2025-08-08 15:06:52,046 - INFO - Add a track <streamlit_webrtc.process.AsyncVideoProcessTrack object at 0x00000263F6AA3640> of kind video to <aiortc.rtcpeerconnection.RTCPeerConnection object at 0x00000263F66D7D30>
+2025-08-08 15:06:52,057 - INFO - Connection(4) Could not bind to 169.254.252.254 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:52,059 - INFO - Connection(4) Could not bind to 169.254.64.94 - [WinError 10049] The requested address is not valid in its context
+2025-08-08 15:06:52,547 - INFO - Setting ICE candidates from offerer: {'czjnh72f0pd': {'candidate': 'candidate:3404351559 1 udp 2122260223 10.251.67.108 59209 typ host generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': '2rEC'}, 'bq04j7sfbvh': {'candidate': 'candidate:3404351559 1 udp 2122260223 10.251.67.108 59210 typ host generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': '2rEC'}, 'csz9oxuwgqo': {'candidate': 'candidate:1705027961 1 udp 1686052607 102.91.71.28 1485 typ srflx raddr 10.251.67.108 rport 59210 generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': '2rEC'}, 'w9alvryrn4': {'candidate': 'candidate:1705027961 1 udp 1686052607 102.91.71.28 124 typ srflx raddr 10.251.67.108 rport 59209 generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': '2rEC'}, 'j5pu0suyaga': {'candidate': 'candidate:3022367455 1 tcp 1518280447 10.251.67.108 9 typ host tcptype active generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '0', 'sdpMLineIndex': 0, 'usernameFragment': '2rEC'}, '42wg7u6s3oo': {'candidate': 'candidate:3022367455 1 tcp 1518280447 10.251.67.108 9 typ host tcptype active generation 0 ufrag 2rEC network-id 1 network-cost 10', 'sdpMid': '1', 'sdpMLineIndex': 1, 'usernameFragment': '2rEC'}}
+2025-08-08 15:06:52,555 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:3404351559', ip='10.251.67.108', port=59209, priority=2122260223, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:52,557 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:3404351559', ip='10.251.67.108', port=59210, priority=2122260223, protocol='udp', type='host', relatedAddress=None, relatedPort=None, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:52,560 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:1705027961', ip='102.91.71.28', port=1485, priority=1686052607, protocol='udp', type='srflx', relatedAddress='10.251.67.108', relatedPort=59210, sdpMid='1', sdpMLineIndex=1, tcpType=None)
+2025-08-08 15:06:52,572 - INFO - Connection(4) Check CandidatePair(('10.251.67.108', 55326) -> ('10.251.67.108', 59209)) State.FROZEN -> State.IN_PROGRESS
+2025-08-08 15:06:52,573 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:1705027961', ip='102.91.71.28', port=124, priority=1686052607, protocol='udp', type='srflx', relatedAddress='10.251.67.108', relatedPort=59209, sdpMid='0', sdpMLineIndex=0, tcpType=None)
+2025-08-08 15:06:52,577 - INFO - Connection(4) Check CandidatePair(('10.251.67.108', 55326) -> ('10.251.67.108', 59209)) State.IN_PROGRESS -> State.SUCCEEDED
+2025-08-08 15:06:52,578 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:3022367455', ip='10.251.67.108', port=9, priority=1518280447, protocol='tcp', type='host', relatedAddress=None, relatedPort=None, sdpMid='0', sdpMLineIndex=0, tcpType='active')
+2025-08-08 15:06:52,580 - INFO - Adding ICE candidate: RTCIceCandidate(component=1, foundation='candidate:3022367455', ip='10.251.67.108', port=9, priority=1518280447, protocol='tcp', type='host', relatedAddress=None, relatedPort=None, sdpMid='1', sdpMLineIndex=1, tcpType='active')
+2025-08-08 15:06:52,601 - INFO - Connection(4) Check CandidatePair(('10.251.67.108', 55326) -> ('102.91.71.28', 124)) State.FROZEN -> State.IN_PROGRESS
+2025-08-08 15:06:52,732 - INFO - Connection(4) ICE completed
+2025-08-08 15:06:54,488 - ERROR - Error occurred in the WebRTC thread: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 454, in __getitem__
+    return self._getitem(widget_id, key)
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 499, in _getitem
+    raise KeyError
+KeyError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 130, in __getattr__
+    return self[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 101, in __getitem__
+    return get_session_state()[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\safe_session_state.py", line 96, in __getitem__
+    return self._state[key]
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state.py", line 456, in __getitem__
+    raise KeyError(_missing_key_error_message(key))
+KeyError: 'st.session_state has no key "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 111, in _run_worker_thread
+    self._worker_thread()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\process.py", line 196, in _worker_thread
+    new_frames = finished.result()
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit_webrtc\models.py", line 115, in recv_queued
+    return [self.recv(frames[-1])]
+  File "C:\Users\NOVA\Desktop\AI-based-home-security\streamlit_app.py", line 97, in recv
+    if face_id not in st.session_state.seen_faces:
+  File "C:\Users\NOVA\AppData\Local\Programs\Python\Python310\lib\site-packages\streamlit\runtime\state\session_state_proxy.py", line 132, in __getattr__
+    raise AttributeError(_missing_attr_error_message(key))
+AttributeError: st.session_state has no attribute "seen_faces". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
+2025-08-08 15:07:34,969 - INFO - Connection(4) Consent to send expired
+2025-08-08 15:07:34,973 - INFO - Track audio ended
+2025-08-08 15:07:34,974 - INFO - Track video ended
